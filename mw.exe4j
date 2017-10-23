@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="4.4.2" transformSequenceNumber="1">
+  <directoryPresets config="C:/JAVA programiranje/PROJEKTI" />
+  <application name="moneyWorks" distributionSourceDir="C:/JAVA programiranje/PROJEKTI/moneyWorks">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="moneyWorks" type="1" iconSet="true" iconFile="C:/JAVA programiranje/PROJEKTI/moneyWorks/library/icons/boue.ico" executableDir="" redirectStderr="true" stderrFile="error.log" stderrMode="overwrite" redirectStdout="false" stdoutFile="output.log" stdoutMode="overwrite" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false" globalSingleInstance="false" amd64="false">
+    <messageSet />
+    <versionInfo include="true" fileVersion="0.0.2" fileDescription="Aplikacija za vođenje kućnih financija" legalCopyright="Ivan Kovačić" internalName="moneyWorks" productName="" companyName="two dots" productVersion="moneyWorks" />
+  </executable>
+  <splashScreen show="true" autoOff="true" alwaysOnTop="true" width="256" height="256" bitmapFile="C:/JAVA programiranje/PROJEKTI/moneyWorks/library/icons/Boue.png" java6SplashScreen="false">
+    <text>
+      <statusLine x="83" y="82" text="MoneyWorks" font="Arial" fontSize="16" fontColor="0,0,0" fontWeight="600" />
+      <versionLine x="111" y="103" text="0.0.2" font="Arial" fontSize="7" fontColor="255,102,102" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="login" vmParameters="" arguments="" allowVMPassthroughParameters="true" preferredVM="" bundleRuntime="true" minVersion="1.4" maxVersion="1.7" allowBetaVM="true" jdkOnly="false">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <archive location="./moneyWorks.jar" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
+
